@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ph-Tv</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="m-4 flex justify-between w-11/12 mx-auto py-3 border-b-2 border-[#17171720]">
+            <div>
+                <img class="w-[120px]" src="asset/Logo.png" alt="">
+            </div>
+            <div>
+                <button class="bg-[#E2DFF4] rounded-lg p-2">Sort by view</button>
+               </div>
+            <div>
+                <button class="bg-[#FF1F3D] text-white rounded-md p-2">Blog</button>
+            </div>
+        </nav>
+    </header>
+    <nav id="category-container" class="flex py-5 justify-center gap-3">
+        <div>
+            <button class="btn btn-error bg-[#FF1F3D] text-white">All</button>
+
+        </div>
+    </nav>
+<script src="work.js"></script>
+</body>
+</html>
